@@ -17,7 +17,7 @@ export default function App() {
 
   return (
     <div>
-      <h1 className="text-4xl font-bold text-center mb-6">Robofriends</h1>
+      <h1 className="text-5xl font-bold text-center mb-6 mt-12">Robofriends</h1>
       <SearchBox searchfield={searchField} searchChange={onSearchChange} />
       <CardList robots={filteredRobots} />
     </div>
