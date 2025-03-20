@@ -11,6 +11,7 @@ export const CardList = ({ robots }) => {
       />
     );
   });
+
   return (
     <div className="flex flex-wrap justify-center p-4">{cardComponent} </div>
   );
